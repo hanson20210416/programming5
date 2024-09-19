@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=numerical_integration       # Job name
-#SBATCH --output=results.csv                   # Output file
+#SBATCH --output=/home/shared/results.csv      # Output file
 #SBATCH --nodes=1                              # Request 1 node
 #SBATCH --ntasks=1                             # Number of tasks (processes)
 #SBATCH --time=01:00:00                        # Time limit (hh:mm:ss)
