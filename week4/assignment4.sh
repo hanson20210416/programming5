@@ -14,6 +14,9 @@
 INPUT_FILES=(
     "/data/datasets/NCBI/PubMed/pubmed21n0021.xml"
     "/data/datasets/NCBI/PubMed/pubmed21n0022.xml"
+    "/data/datasets/NCBI/PubMed/pubmed21n0023.xml"
+    "/data/datasets/NCBI/PubMed/pubmed21n0024.xml"
+    "/data/datasets/NCBI/PubMed/pubmed21n0025.xml"
 )
 
 # Select the file corresponding to the current task
