@@ -7,18 +7,18 @@
 #SBATCH --error=assignment2.err               
 #SBATCH --time=0-00:10:00               
 #SBATCH --nodes=1                      
-#SBATCH --ntasks=8                    
+#SBATCH --ntasks=32                    
 #SBATCH --cpus-per-task=1              
 #SBATCH --mem-per-cpu=400M
 
-N=100000
+N=100000000
 A=0        
 B=3.14      
 
 OUTPUT_FILE="results.csv"
 echo "Workers,UserTime,SystemTime,ElapsedTime" > $OUTPUT_FILE  
 
-for p in {2..8}
+for p in {1..32}
 do
     echo "Running with $p workers..."
     # Capture user, system, and elapsed time separately

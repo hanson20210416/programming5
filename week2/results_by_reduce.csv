@@ -1,0 +1,625 @@
+Workers,UserTime,SystemTime,ElapsedTime
+1,rank0
+1,Process 0: local_lower_bound = 0.0,           local_upper_bound = 3.14
+1,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926529161641998
+1,3.23,0.19,3.67
+2,rank0
+2,Process 0: local_lower_bound = 0.0,           local_upper_bound = 1.57
+2,Process 1: local_lower_bound = 1.57,           local_upper_bound = 3.14
+2,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926526660647207
+2,3.42,0.26,2.24
+3,rank0
+3,Process 0: local_lower_bound = 0.0,           local_upper_bound = 1.0466666666666666
+3,Process 1: local_lower_bound = 1.0466666666666666,           local_upper_bound = 2.0933333333333333
+3,Process 2: local_lower_bound = 2.0933333333333333,           local_upper_bound = 3.14
+3,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.001592652323917919
+3,3.58,0.25,1.72
+4,rank0
+4,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.785
+4,Process 1: local_lower_bound = 0.785,           local_upper_bound = 1.57
+4,Process 2: local_lower_bound = 1.57,           local_upper_bound = 2.355
+4,Process 3: local_lower_bound = 2.355,           local_upper_bound = 3.14
+4,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926523123564898
+4,3.64,0.32,1.47
+5,rank0
+5,Process 1: local_lower_bound = 0.628,           local_upper_bound = 1.256
+5,Process 2: local_lower_bound = 1.256,           local_upper_bound = 1.884
+5,Process 3: local_lower_bound = 1.884,           local_upper_bound = 2.512
+5,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.628
+5,Process 4: local_lower_bound = 2.512,           local_upper_bound = 3.14
+5,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926521464403316
+5,4.13,0.44,1.39
+6,rank0
+6,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.5233333333333333
+6,Process 2: local_lower_bound = 1.0466666666666666,           local_upper_bound = 1.5699999999999998
+6,Process 1: local_lower_bound = 0.5233333333333333,           local_upper_bound = 1.0466666666666666
+6,Process 4: local_lower_bound = 2.0933333333333333,           local_upper_bound = 2.6166666666666667
+6,Process 3: local_lower_bound = 1.5699999999999998,           local_upper_bound = 2.0933333333333333
+6,Process 5: local_lower_bound = 2.6166666666666667,           local_upper_bound = 3.14
+6,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926513457346
+6,3.75,0.49,1.20
+7,rank0
+7,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.44857142857142857
+7,Process 4: local_lower_bound = 1.7942857142857143,           local_upper_bound = 2.242857142857143
+7,Process 3: local_lower_bound = 1.3457142857142856,           local_upper_bound = 1.7942857142857143
+7,Process 2: local_lower_bound = 0.8971428571428571,           local_upper_bound = 1.3457142857142856
+7,Process 1: local_lower_bound = 0.44857142857142857,           local_upper_bound = 0.8971428571428571
+7,Process 5: local_lower_bound = 2.242857142857143,           local_upper_bound = 2.6914285714285713
+7,Process 6: local_lower_bound = 2.6914285714285713,           local_upper_bound = 3.14
+7,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926513426020334
+7,3.85,0.51,1.10
+8,rank0
+8,Process 1: local_lower_bound = 0.3925,           local_upper_bound = 0.785
+8,Process 6: local_lower_bound = 2.355,           local_upper_bound = 2.7475
+8,Process 5: local_lower_bound = 1.9625000000000001,           local_upper_bound = 2.355
+8,Process 4: local_lower_bound = 1.57,           local_upper_bound = 1.9625000000000001
+8,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.3925
+8,Process 2: local_lower_bound = 0.785,           local_upper_bound = 1.1775
+8,Process 3: local_lower_bound = 1.1775,           local_upper_bound = 1.57
+8,Process 7: local_lower_bound = 2.7475,           local_upper_bound = 3.14
+8,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926516587175617
+8,6.64,0.55,1.38
+9,rank0
+9,Process 2: local_lower_bound = 0.6977777777777778,           local_upper_bound = 1.0466666666666669
+9,Process 1: local_lower_bound = 0.3488888888888889,           local_upper_bound = 0.6977777777777778
+9,Process 6: local_lower_bound = 2.0933333333333337,           local_upper_bound = 2.4422222222222225
+9,Process 4: local_lower_bound = 1.3955555555555557,           local_upper_bound = 1.7444444444444445
+9,Process 3: local_lower_bound = 1.0466666666666669,           local_upper_bound = 1.3955555555555557
+9,Process 5: local_lower_bound = 1.7444444444444445,           local_upper_bound = 2.0933333333333333
+9,Process 7: local_lower_bound = 2.4422222222222225,           local_upper_bound = 2.7911111111111113
+9,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.3488888888888889
+9,Process 8: local_lower_bound = 2.7911111111111113,           local_upper_bound = 3.14
+9,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926513384222558
+9,4.83,0.56,1.10
+10,rank0
+10,Process 4: local_lower_bound = 1.256,           local_upper_bound = 1.57
+10,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.314
+10,Process 3: local_lower_bound = 0.942,           local_upper_bound = 1.256
+10,Process 7: local_lower_bound = 2.198,           local_upper_bound = 2.512
+10,Process 9: local_lower_bound = 2.826,           local_upper_bound = 3.14
+10,Process 8: local_lower_bound = 2.512,           local_upper_bound = 2.826
+10,Process 6: local_lower_bound = 1.884,           local_upper_bound = 2.198
+10,Process 1: local_lower_bound = 0.314,           local_upper_bound = 0.628
+10,Process 2: local_lower_bound = 0.628,           local_upper_bound = 0.942
+10,Process 5: local_lower_bound = 1.57,           local_upper_bound = 1.8840000000000001
+10,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926513369148249
+10,6.79,0.64,1.27
+11,rank0
+11,Process 1: local_lower_bound = 0.28545454545454546,           local_upper_bound = 0.5709090909090909
+11,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.28545454545454546
+11,Process 5: local_lower_bound = 1.4272727272727272,           local_upper_bound = 1.7127272727272727
+11,Process 4: local_lower_bound = 1.1418181818181818,           local_upper_bound = 1.4272727272727272
+11,Process 2: local_lower_bound = 0.5709090909090909,           local_upper_bound = 0.8563636363636364
+11,Process 8: local_lower_bound = 2.2836363636363637,           local_upper_bound = 2.5690909090909093
+11,Process 9: local_lower_bound = 2.5690909090909093,           local_upper_bound = 2.854545454545455
+11,Process 3: local_lower_bound = 0.8563636363636364,           local_upper_bound = 1.1418181818181818
+11,Process 6: local_lower_bound = 1.7127272727272729,           local_upper_bound = 1.9981818181818183
+11,Process 10: local_lower_bound = 2.8545454545454545,           local_upper_bound = 3.14
+11,Process 7: local_lower_bound = 1.9981818181818183,           local_upper_bound = 2.2836363636363637
+11,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926495838264629
+11,7.44,0.70,1.26
+12,rank0
+12,Process 2: local_lower_bound = 0.5233333333333333,           local_upper_bound = 0.7849999999999999
+12,Process 1: local_lower_bound = 0.26166666666666666,           local_upper_bound = 0.5233333333333333
+12,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.26166666666666666
+12,Process 4: local_lower_bound = 1.0466666666666666,           local_upper_bound = 1.3083333333333333
+12,Process 8: local_lower_bound = 2.0933333333333333,           local_upper_bound = 2.355
+12,Process 7: local_lower_bound = 1.8316666666666666,           local_upper_bound = 2.0933333333333333
+12,Process 6: local_lower_bound = 1.5699999999999998,           local_upper_bound = 1.8316666666666666
+12,Process 10: local_lower_bound = 2.6166666666666667,           local_upper_bound = 2.8783333333333334
+12,Process 3: local_lower_bound = 0.7849999999999999,           local_upper_bound = 1.0466666666666666
+12,Process 11: local_lower_bound = 2.8783333333333334,           local_upper_bound = 3.14
+12,Process 5: local_lower_bound = 1.3083333333333333,           local_upper_bound = 1.57
+12,Process 9: local_lower_bound = 2.355,           local_upper_bound = 2.6166666666666667
+12,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926503791423925
+12,7.05,0.80,1.17
+13,rank0
+13,Process 6: local_lower_bound = 1.4492307692307693,           local_upper_bound = 1.6907692307692308
+13,Process 5: local_lower_bound = 1.2076923076923076,           local_upper_bound = 1.449230769230769
+13,Process 2: local_lower_bound = 0.48307692307692307,           local_upper_bound = 0.7246153846153847
+13,Process 8: local_lower_bound = 1.9323076923076923,           local_upper_bound = 2.1738461538461538
+13,Process 11: local_lower_bound = 2.6569230769230767,           local_upper_bound = 2.898461538461538
+13,Process 10: local_lower_bound = 2.4153846153846152,           local_upper_bound = 2.6569230769230767
+13,Process 12: local_lower_bound = 2.8984615384615386,           local_upper_bound = 3.14
+13,Process 4: local_lower_bound = 0.9661538461538461,           local_upper_bound = 1.2076923076923076
+13,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.24153846153846154
+13,Process 9: local_lower_bound = 2.1738461538461538,           local_upper_bound = 2.4153846153846152
+13,Process 7: local_lower_bound = 1.6907692307692308,           local_upper_bound = 1.9323076923076923
+13,Process 3: local_lower_bound = 0.7246153846153847,           local_upper_bound = 0.9661538461538461
+13,Process 1: local_lower_bound = 0.24153846153846154,           local_upper_bound = 0.48307692307692307
+13,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926492634397709
+13,6.10,0.75,1.06
+14,rank0
+14,Process 8: local_lower_bound = 1.7942857142857143,           local_upper_bound = 2.0185714285714287
+14,Process 3: local_lower_bound = 0.6728571428571428,           local_upper_bound = 0.8971428571428571
+14,Process 2: local_lower_bound = 0.44857142857142857,           local_upper_bound = 0.6728571428571428
+14,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.22428571428571428
+14,Process 13: local_lower_bound = 2.9157142857142855,           local_upper_bound = 3.14
+14,Process 6: local_lower_bound = 1.3457142857142856,           local_upper_bound = 1.5699999999999998
+14,Process 4: local_lower_bound = 0.8971428571428571,           local_upper_bound = 1.1214285714285714
+14,Process 10: local_lower_bound = 2.242857142857143,           local_upper_bound = 2.467142857142857
+14,Process 9: local_lower_bound = 2.0185714285714287,           local_upper_bound = 2.242857142857143
+14,Process 12: local_lower_bound = 2.6914285714285713,           local_upper_bound = 2.9157142857142855
+14,Process 11: local_lower_bound = 2.467142857142857,           local_upper_bound = 2.6914285714285713
+14,Process 5: local_lower_bound = 1.1214285714285714,           local_upper_bound = 1.3457142857142856
+14,Process 7: local_lower_bound = 1.57,           local_upper_bound = 1.7942857142857143
+14,Process 1: local_lower_bound = 0.22428571428571428,           local_upper_bound = 0.44857142857142857
+14,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926491034854177
+14,5.69,0.86,1.02
+15,rank0
+15,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.20933333333333334
+15,Process 14: local_lower_bound = 2.9306666666666668,           local_upper_bound = 3.14
+15,Process 5: local_lower_bound = 1.0466666666666666,           local_upper_bound = 1.256
+15,Process 6: local_lower_bound = 1.256,           local_upper_bound = 1.4653333333333334
+15,Process 11: local_lower_bound = 2.3026666666666666,           local_upper_bound = 2.512
+15,Process 8: local_lower_bound = 1.6746666666666667,           local_upper_bound = 1.8840000000000001
+15,Process 4: local_lower_bound = 0.8373333333333334,           local_upper_bound = 1.0466666666666666
+15,Process 12: local_lower_bound = 2.512,           local_upper_bound = 2.7213333333333334
+15,Process 13: local_lower_bound = 2.7213333333333334,           local_upper_bound = 2.9306666666666668
+15,Process 7: local_lower_bound = 1.4653333333333334,           local_upper_bound = 1.6746666666666667
+15,Process 3: local_lower_bound = 0.628,           local_upper_bound = 0.8373333333333334
+15,Process 2: local_lower_bound = 0.4186666666666667,           local_upper_bound = 0.628
+15,Process 9: local_lower_bound = 1.8840000000000001,           local_upper_bound = 2.0933333333333333
+15,Process 1: local_lower_bound = 0.20933333333333334,           local_upper_bound = 0.4186666666666667
+15,Process 10: local_lower_bound = 2.0933333333333333,           local_upper_bound = 2.3026666666666666
+15,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926489436021262
+15,7.91,0.89,1.16
+16,rank0
+16,Process 3: local_lower_bound = 0.58875,           local_upper_bound = 0.785
+16,Process 5: local_lower_bound = 0.9812500000000001,           local_upper_bound = 1.1775
+16,Process 15: local_lower_bound = 2.94375,           local_upper_bound = 3.14
+16,Process 1: local_lower_bound = 0.19625,           local_upper_bound = 0.3925
+16,Process 8: local_lower_bound = 1.57,           local_upper_bound = 1.76625
+16,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.19625
+16,Process 4: local_lower_bound = 0.785,           local_upper_bound = 0.9812500000000001
+16,Process 7: local_lower_bound = 1.37375,           local_upper_bound = 1.57
+16,Process 12: local_lower_bound = 2.355,           local_upper_bound = 2.55125
+16,Process 11: local_lower_bound = 2.15875,           local_upper_bound = 2.355
+16,Process 10: local_lower_bound = 1.9625000000000001,           local_upper_bound = 2.15875
+16,Process 14: local_lower_bound = 2.7475,           local_upper_bound = 2.94375
+16,Process 6: local_lower_bound = 1.1775,           local_upper_bound = 1.37375
+16,Process 2: local_lower_bound = 0.3925,           local_upper_bound = 0.58875
+16,Process 13: local_lower_bound = 2.55125,           local_upper_bound = 2.7475
+16,Process 9: local_lower_bound = 1.76625,           local_upper_bound = 1.9625000000000001
+16,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926503764361964
+16,8.18,0.85,1.14
+17,rank0
+17,Process 3: local_lower_bound = 0.5541176470588236,           local_upper_bound = 0.7388235294117648
+17,Process 13: local_lower_bound = 2.4011764705882355,           local_upper_bound = 2.5858823529411765
+17,Process 11: local_lower_bound = 2.031764705882353,           local_upper_bound = 2.216470588235294
+17,Process 7: local_lower_bound = 1.2929411764705883,           local_upper_bound = 1.4776470588235295
+17,Process 5: local_lower_bound = 0.9235294117647059,           local_upper_bound = 1.1082352941176472
+17,Process 1: local_lower_bound = 0.1847058823529412,           local_upper_bound = 0.3694117647058824
+17,Process 2: local_lower_bound = 0.3694117647058824,           local_upper_bound = 0.5541176470588236
+17,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.1847058823529412
+17,Process 4: local_lower_bound = 0.7388235294117648,           local_upper_bound = 0.9235294117647059
+17,Process 6: local_lower_bound = 1.1082352941176472,           local_upper_bound = 1.2929411764705885
+17,Process 8: local_lower_bound = 1.4776470588235295,           local_upper_bound = 1.6623529411764708
+17,Process 12: local_lower_bound = 2.2164705882352944,           local_upper_bound = 2.4011764705882355
+17,Process 10: local_lower_bound = 1.8470588235294119,           local_upper_bound = 2.031764705882353
+17,Process 9: local_lower_bound = 1.6623529411764708,           local_upper_bound = 1.847058823529412
+17,Process 15: local_lower_bound = 2.770588235294118,           local_upper_bound = 2.955294117647059
+17,Process 16: local_lower_bound = 2.955294117647059,           local_upper_bound = 3.14
+17,Process 14: local_lower_bound = 2.5858823529411765,           local_upper_bound = 2.7705882352941176
+17,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926494203303894
+17,9.28,13.68,2.00
+18,rank0
+18,Process 9: local_lower_bound = 1.57,           local_upper_bound = 1.7444444444444445
+18,Process 13: local_lower_bound = 2.267777777777778,           local_upper_bound = 2.4422222222222225
+18,Process 16: local_lower_bound = 2.7911111111111113,           local_upper_bound = 2.965555555555556
+18,Process 8: local_lower_bound = 1.3955555555555557,           local_upper_bound = 1.57
+18,Process 6: local_lower_bound = 1.0466666666666669,           local_upper_bound = 1.2211111111111113
+18,Process 7: local_lower_bound = 1.2211111111111113,           local_upper_bound = 1.3955555555555557
+18,Process 3: local_lower_bound = 0.5233333333333334,           local_upper_bound = 0.6977777777777778
+18,Process 11: local_lower_bound = 1.918888888888889,           local_upper_bound = 2.0933333333333337
+18,Process 4: local_lower_bound = 0.6977777777777778,           local_upper_bound = 0.8722222222222222
+18,Process 15: local_lower_bound = 2.6166666666666667,           local_upper_bound = 2.7911111111111113
+18,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.17444444444444446
+18,Process 10: local_lower_bound = 1.7444444444444445,           local_upper_bound = 1.9188888888888889
+18,Process 14: local_lower_bound = 2.4422222222222225,           local_upper_bound = 2.616666666666667
+18,Process 12: local_lower_bound = 2.0933333333333337,           local_upper_bound = 2.2677777777777783
+18,Process 17: local_lower_bound = 2.965555555555556,           local_upper_bound = 3.14
+18,Process 1: local_lower_bound = 0.17444444444444446,           local_upper_bound = 0.3488888888888889
+18,Process 2: local_lower_bound = 0.3488888888888889,           local_upper_bound = 0.5233333333333334
+18,Process 5: local_lower_bound = 0.8722222222222222,           local_upper_bound = 1.0466666666666666
+18,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926484643336606
+18,9.51,14.74,2.07
+19,rank0
+19,Process 11: local_lower_bound = 1.8178947368421055,           local_upper_bound = 1.9831578947368422
+19,Process 12: local_lower_bound = 1.9831578947368422,           local_upper_bound = 2.148421052631579
+19,Process 17: local_lower_bound = 2.8094736842105266,           local_upper_bound = 2.9747368421052633
+19,Process 10: local_lower_bound = 1.6526315789473687,           local_upper_bound = 1.8178947368421055
+19,Process 14: local_lower_bound = 2.3136842105263162,           local_upper_bound = 2.478947368421053
+19,Process 4: local_lower_bound = 0.6610526315789474,           local_upper_bound = 0.8263157894736843
+19,Process 8: local_lower_bound = 1.322105263157895,           local_upper_bound = 1.4873684210526317
+19,Process 6: local_lower_bound = 0.9915789473684211,           local_upper_bound = 1.156842105263158
+19,Process 13: local_lower_bound = 2.148421052631579,           local_upper_bound = 2.313684210526316
+19,Process 15: local_lower_bound = 2.478947368421053,           local_upper_bound = 2.64421052631579
+19,Process 7: local_lower_bound = 1.1568421052631581,           local_upper_bound = 1.322105263157895
+19,Process 5: local_lower_bound = 0.8263157894736843,           local_upper_bound = 0.9915789473684212
+19,Process 1: local_lower_bound = 0.16526315789473686,           local_upper_bound = 0.3305263157894737
+19,Process 2: local_lower_bound = 0.3305263157894737,           local_upper_bound = 0.49578947368421056
+19,Process 3: local_lower_bound = 0.49578947368421056,           local_upper_bound = 0.6610526315789474
+19,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.16526315789473686
+19,Process 9: local_lower_bound = 1.4873684210526317,           local_upper_bound = 1.6526315789473685
+19,Process 18: local_lower_bound = 2.9747368421052633,           local_upper_bound = 3.14
+19,Process 16: local_lower_bound = 2.64421052631579,           local_upper_bound = 2.8094736842105266
+19,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926475083538566
+19,9.79,16.67,2.11
+20,rank0
+20,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.157
+20,Process 12: local_lower_bound = 1.884,           local_upper_bound = 2.041
+20,Process 18: local_lower_bound = 2.826,           local_upper_bound = 2.983
+20,Process 11: local_lower_bound = 1.727,           local_upper_bound = 1.8840000000000001
+20,Process 19: local_lower_bound = 2.983,           local_upper_bound = 3.14
+20,Process 6: local_lower_bound = 0.942,           local_upper_bound = 1.099
+20,Process 15: local_lower_bound = 2.355,           local_upper_bound = 2.512
+20,Process 16: local_lower_bound = 2.512,           local_upper_bound = 2.669
+20,Process 2: local_lower_bound = 0.314,           local_upper_bound = 0.471
+20,Process 13: local_lower_bound = 2.041,           local_upper_bound = 2.198
+20,Process 5: local_lower_bound = 0.785,           local_upper_bound = 0.9420000000000001
+20,Process 14: local_lower_bound = 2.198,           local_upper_bound = 2.355
+20,Process 4: local_lower_bound = 0.628,           local_upper_bound = 0.785
+20,Process 10: local_lower_bound = 1.57,           local_upper_bound = 1.727
+20,Process 9: local_lower_bound = 1.413,           local_upper_bound = 1.57
+20,Process 17: local_lower_bound = 2.669,           local_upper_bound = 2.826
+20,Process 1: local_lower_bound = 0.157,           local_upper_bound = 0.314
+20,Process 3: local_lower_bound = 0.471,           local_upper_bound = 0.628
+20,Process 7: local_lower_bound = 1.099,           local_upper_bound = 1.256
+20,Process 8: local_lower_bound = 1.256,           local_upper_bound = 1.413
+20,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926497377340585
+20,9.43,19.49,2.19
+21,rank0
+21,Process 2: local_lower_bound = 0.29904761904761906,           local_upper_bound = 0.4485714285714286
+21,Process 15: local_lower_bound = 2.242857142857143,           local_upper_bound = 2.3923809523809525
+21,Process 17: local_lower_bound = 2.541904761904762,           local_upper_bound = 2.6914285714285717
+21,Process 20: local_lower_bound = 2.9904761904761905,           local_upper_bound = 3.14
+21,Process 9: local_lower_bound = 1.3457142857142859,           local_upper_bound = 1.4952380952380955
+21,Process 4: local_lower_bound = 0.5980952380952381,           local_upper_bound = 0.7476190476190476
+21,Process 3: local_lower_bound = 0.4485714285714286,           local_upper_bound = 0.5980952380952381
+21,Process 18: local_lower_bound = 2.6914285714285717,           local_upper_bound = 2.8409523809523813
+21,Process 19: local_lower_bound = 2.840952380952381,           local_upper_bound = 2.9904761904761905
+21,Process 1: local_lower_bound = 0.14952380952380953,           local_upper_bound = 0.29904761904761906
+21,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.14952380952380953
+21,Process 12: local_lower_bound = 1.7942857142857145,           local_upper_bound = 1.943809523809524
+21,Process 16: local_lower_bound = 2.3923809523809525,           local_upper_bound = 2.541904761904762
+21,Process 6: local_lower_bound = 0.8971428571428572,           local_upper_bound = 1.0466666666666669
+21,Process 13: local_lower_bound = 1.9438095238095239,           local_upper_bound = 2.0933333333333333
+21,Process 14: local_lower_bound = 2.0933333333333333,           local_upper_bound = 2.242857142857143
+21,Process 11: local_lower_bound = 1.6447619047619049,           local_upper_bound = 1.7942857142857145
+21,Process 8: local_lower_bound = 1.1961904761904762,           local_upper_bound = 1.3457142857142859
+21,Process 10: local_lower_bound = 1.4952380952380953,           local_upper_bound = 1.6447619047619049
+21,Process 7: local_lower_bound = 1.0466666666666666,           local_upper_bound = 1.1961904761904762
+21,Process 5: local_lower_bound = 0.7476190476190476,           local_upper_bound = 0.8971428571428571
+21,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926479854874716
+21,10.09,21.27,2.19
+22,rank0
+22,Process 11: local_lower_bound = 1.57,           local_upper_bound = 1.7127272727272729
+22,Process 2: local_lower_bound = 0.28545454545454546,           local_upper_bound = 0.4281818181818182
+22,Process 9: local_lower_bound = 1.2845454545454547,           local_upper_bound = 1.4272727272727275
+22,Process 6: local_lower_bound = 0.8563636363636364,           local_upper_bound = 0.9990909090909091
+22,Process 3: local_lower_bound = 0.4281818181818182,           local_upper_bound = 0.5709090909090909
+22,Process 12: local_lower_bound = 1.7127272727272729,           local_upper_bound = 1.8554545454545457
+22,Process 15: local_lower_bound = 2.140909090909091,           local_upper_bound = 2.2836363636363637
+22,Process 13: local_lower_bound = 1.8554545454545455,           local_upper_bound = 1.9981818181818183
+22,Process 8: local_lower_bound = 1.1418181818181818,           local_upper_bound = 1.2845454545454547
+22,Process 19: local_lower_bound = 2.711818181818182,           local_upper_bound = 2.8545454545454545
+22,Process 1: local_lower_bound = 0.14272727272727273,           local_upper_bound = 0.28545454545454546
+22,Process 18: local_lower_bound = 2.5690909090909093,           local_upper_bound = 2.711818181818182
+22,Process 5: local_lower_bound = 0.7136363636363636,           local_upper_bound = 0.8563636363636363
+22,Process 20: local_lower_bound = 2.8545454545454545,           local_upper_bound = 2.997272727272727
+22,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.14272727272727273
+22,Process 10: local_lower_bound = 1.4272727272727272,           local_upper_bound = 1.57
+22,Process 7: local_lower_bound = 0.9990909090909091,           local_upper_bound = 1.1418181818181818
+22,Process 14: local_lower_bound = 1.9981818181818183,           local_upper_bound = 2.140909090909091
+22,Process 16: local_lower_bound = 2.2836363636363637,           local_upper_bound = 2.4263636363636363
+22,Process 17: local_lower_bound = 2.4263636363636363,           local_upper_bound = 2.569090909090909
+22,Process 21: local_lower_bound = 2.9972727272727275,           local_upper_bound = 3.14
+22,Process 4: local_lower_bound = 0.5709090909090909,           local_upper_bound = 0.7136363636363636
+22,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.001592647825933901
+22,10.23,22.67,2.23
+23,rank0
+23,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.13652173913043478
+23,Process 3: local_lower_bound = 0.40956521739130436,           local_upper_bound = 0.5460869565217391
+23,Process 9: local_lower_bound = 1.228695652173913,           local_upper_bound = 1.3652173913043477
+23,Process 17: local_lower_bound = 2.320869565217391,           local_upper_bound = 2.457391304347826
+23,Process 11: local_lower_bound = 1.5017391304347825,           local_upper_bound = 1.6382608695652172
+23,Process 21: local_lower_bound = 2.86695652173913,           local_upper_bound = 3.003478260869565
+23,Process 20: local_lower_bound = 2.7304347826086954,           local_upper_bound = 2.86695652173913
+23,Process 2: local_lower_bound = 0.27304347826086955,           local_upper_bound = 0.40956521739130436
+23,Process 4: local_lower_bound = 0.5460869565217391,           local_upper_bound = 0.6826086956521739
+23,Process 15: local_lower_bound = 2.0478260869565217,           local_upper_bound = 2.1843478260869564
+23,Process 5: local_lower_bound = 0.6826086956521739,           local_upper_bound = 0.8191304347826086
+23,Process 18: local_lower_bound = 2.457391304347826,           local_upper_bound = 2.5939130434782607
+23,Process 10: local_lower_bound = 1.3652173913043477,           local_upper_bound = 1.5017391304347825
+23,Process 16: local_lower_bound = 2.1843478260869564,           local_upper_bound = 2.320869565217391
+23,Process 6: local_lower_bound = 0.8191304347826087,           local_upper_bound = 0.9556521739130435
+23,Process 13: local_lower_bound = 1.7747826086956522,           local_upper_bound = 1.911304347826087
+23,Process 22: local_lower_bound = 3.003478260869565,           local_upper_bound = 3.14
+23,Process 8: local_lower_bound = 1.0921739130434782,           local_upper_bound = 1.228695652173913
+23,Process 14: local_lower_bound = 1.911304347826087,           local_upper_bound = 2.0478260869565217
+23,Process 19: local_lower_bound = 2.5939130434782607,           local_upper_bound = 2.7304347826086954
+23,Process 1: local_lower_bound = 0.13652173913043478,           local_upper_bound = 0.27304347826086955
+23,Process 7: local_lower_bound = 0.9556521739130435,           local_upper_bound = 1.0921739130434782
+23,Process 12: local_lower_bound = 1.6382608695652174,           local_upper_bound = 1.7747826086956522
+23,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926470293660556
+23,10.51,25.25,2.33
+24,rank0
+24,Process 13: local_lower_bound = 1.7008333333333332,           local_upper_bound = 1.8316666666666666
+24,Process 23: local_lower_bound = 3.0091666666666668,           local_upper_bound = 3.14
+24,Process 11: local_lower_bound = 1.4391666666666667,           local_upper_bound = 1.57
+24,Process 5: local_lower_bound = 0.6541666666666667,           local_upper_bound = 0.785
+24,Process 19: local_lower_bound = 2.4858333333333333,           local_upper_bound = 2.6166666666666667
+24,Process 7: local_lower_bound = 0.9158333333333333,           local_upper_bound = 1.0466666666666666
+24,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.13083333333333333
+24,Process 4: local_lower_bound = 0.5233333333333333,           local_upper_bound = 0.6541666666666667
+24,Process 21: local_lower_bound = 2.7475,           local_upper_bound = 2.8783333333333334
+24,Process 2: local_lower_bound = 0.26166666666666666,           local_upper_bound = 0.39249999999999996
+24,Process 12: local_lower_bound = 1.5699999999999998,           local_upper_bound = 1.7008333333333332
+24,Process 18: local_lower_bound = 2.355,           local_upper_bound = 2.4858333333333333
+24,Process 8: local_lower_bound = 1.0466666666666666,           local_upper_bound = 1.1775
+24,Process 14: local_lower_bound = 1.8316666666666666,           local_upper_bound = 1.9625
+24,Process 16: local_lower_bound = 2.0933333333333333,           local_upper_bound = 2.2241666666666666
+24,Process 9: local_lower_bound = 1.1775,           local_upper_bound = 1.3083333333333333
+24,Process 17: local_lower_bound = 2.2241666666666666,           local_upper_bound = 2.355
+24,Process 1: local_lower_bound = 0.13083333333333333,           local_upper_bound = 0.26166666666666666
+24,Process 6: local_lower_bound = 0.7849999999999999,           local_upper_bound = 0.9158333333333333
+24,Process 15: local_lower_bound = 1.9625,           local_upper_bound = 2.0933333333333333
+24,Process 22: local_lower_bound = 2.8783333333333334,           local_upper_bound = 3.0091666666666668
+24,Process 3: local_lower_bound = 0.39249999999999996,           local_upper_bound = 0.5233333333333333
+24,Process 10: local_lower_bound = 1.3083333333333333,           local_upper_bound = 1.4391666666666667
+24,Process 20: local_lower_bound = 2.6166666666666667,           local_upper_bound = 2.7475
+24,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926465513352492
+24,10.57,27.10,2.37
+25,rank0
+25,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.12560000000000002
+25,Process 5: local_lower_bound = 0.6280000000000001,           local_upper_bound = 0.7536000000000002
+25,Process 1: local_lower_bound = 0.12560000000000002,           local_upper_bound = 0.25120000000000003
+25,Process 20: local_lower_bound = 2.5120000000000005,           local_upper_bound = 2.6376000000000004
+25,Process 11: local_lower_bound = 1.3816000000000002,           local_upper_bound = 1.5072
+25,Process 18: local_lower_bound = 2.2608,           local_upper_bound = 2.3864
+25,Process 8: local_lower_bound = 1.0048000000000001,           local_upper_bound = 1.1304
+25,Process 16: local_lower_bound = 2.0096000000000003,           local_upper_bound = 2.1352
+25,Process 6: local_lower_bound = 0.7536,           local_upper_bound = 0.8792000000000001
+25,Process 2: local_lower_bound = 0.25120000000000003,           local_upper_bound = 0.3768
+25,Process 13: local_lower_bound = 1.6328000000000003,           local_upper_bound = 1.7584000000000002
+25,Process 10: local_lower_bound = 1.2560000000000002,           local_upper_bound = 1.3816000000000002
+25,Process 23: local_lower_bound = 2.8888000000000003,           local_upper_bound = 3.0144
+25,Process 9: local_lower_bound = 1.1304,           local_upper_bound = 1.256
+25,Process 3: local_lower_bound = 0.3768,           local_upper_bound = 0.5024000000000001
+25,Process 22: local_lower_bound = 2.7632000000000003,           local_upper_bound = 2.8888000000000003
+25,Process 4: local_lower_bound = 0.5024000000000001,           local_upper_bound = 0.6280000000000001
+25,Process 19: local_lower_bound = 2.3864000000000005,           local_upper_bound = 2.5120000000000005
+25,Process 24: local_lower_bound = 3.0144,           local_upper_bound = 3.14
+25,Process 14: local_lower_bound = 1.7584000000000002,           local_upper_bound = 1.8840000000000001
+25,Process 17: local_lower_bound = 2.1352,           local_upper_bound = 2.2608
+25,Process 21: local_lower_bound = 2.6376000000000004,           local_upper_bound = 2.7632000000000003
+25,Process 15: local_lower_bound = 1.8840000000000003,           local_upper_bound = 2.0096000000000003
+25,Process 12: local_lower_bound = 1.5072,           local_upper_bound = 1.6328
+25,Process 7: local_lower_bound = 0.8792000000000001,           local_upper_bound = 1.0048000000000001
+25,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926489401012372
+25,11.54,30.78,2.47
+26,rank0
+26,Process 11: local_lower_bound = 1.3284615384615384,           local_upper_bound = 1.449230769230769
+26,Process 14: local_lower_bound = 1.6907692307692308,           local_upper_bound = 1.8115384615384615
+26,Process 1: local_lower_bound = 0.12076923076923077,           local_upper_bound = 0.24153846153846154
+26,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.12076923076923077
+26,Process 19: local_lower_bound = 2.2946153846153847,           local_upper_bound = 2.4153846153846157
+26,Process 8: local_lower_bound = 0.9661538461538461,           local_upper_bound = 1.0869230769230769
+26,Process 6: local_lower_bound = 0.7246153846153847,           local_upper_bound = 0.8453846153846154
+26,Process 3: local_lower_bound = 0.36230769230769233,           local_upper_bound = 0.48307692307692307
+26,Process 7: local_lower_bound = 0.8453846153846154,           local_upper_bound = 0.9661538461538461
+26,Process 25: local_lower_bound = 3.019230769230769,           local_upper_bound = 3.14
+26,Process 4: local_lower_bound = 0.48307692307692307,           local_upper_bound = 0.6038461538461538
+26,Process 2: local_lower_bound = 0.24153846153846154,           local_upper_bound = 0.36230769230769233
+26,Process 12: local_lower_bound = 1.4492307692307693,           local_upper_bound = 1.57
+26,Process 17: local_lower_bound = 2.0530769230769232,           local_upper_bound = 2.173846153846154
+26,Process 16: local_lower_bound = 1.9323076923076923,           local_upper_bound = 2.0530769230769232
+26,Process 10: local_lower_bound = 1.2076923076923076,           local_upper_bound = 1.3284615384615384
+26,Process 9: local_lower_bound = 1.0869230769230769,           local_upper_bound = 1.2076923076923076
+26,Process 23: local_lower_bound = 2.7776923076923077,           local_upper_bound = 2.8984615384615386
+26,Process 21: local_lower_bound = 2.536153846153846,           local_upper_bound = 2.656923076923077
+26,Process 24: local_lower_bound = 2.8984615384615386,           local_upper_bound = 3.0192307692307696
+26,Process 15: local_lower_bound = 1.8115384615384615,           local_upper_bound = 1.9323076923076923
+26,Process 20: local_lower_bound = 2.4153846153846152,           local_upper_bound = 2.536153846153846
+26,Process 5: local_lower_bound = 0.6038461538461538,           local_upper_bound = 0.7246153846153846
+26,Process 22: local_lower_bound = 2.6569230769230767,           local_upper_bound = 2.7776923076923077
+26,Process 18: local_lower_bound = 2.1738461538461538,           local_upper_bound = 2.2946153846153847
+26,Process 13: local_lower_bound = 1.57,           local_upper_bound = 1.6907692307692308
+26,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926471879661411
+26,10.78,34.78,2.55
+27,rank0
+27,Process 19: local_lower_bound = 2.20962962962963,           local_upper_bound = 2.325925925925926
+27,Process 3: local_lower_bound = 0.3488888888888889,           local_upper_bound = 0.4651851851851852
+27,Process 4: local_lower_bound = 0.4651851851851852,           local_upper_bound = 0.5814814814814815
+27,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.1162962962962963
+27,Process 1: local_lower_bound = 0.1162962962962963,           local_upper_bound = 0.2325925925925926
+27,Process 2: local_lower_bound = 0.2325925925925926,           local_upper_bound = 0.3488888888888889
+27,Process 6: local_lower_bound = 0.6977777777777778,           local_upper_bound = 0.8140740740740742
+27,Process 25: local_lower_bound = 2.9074074074074074,           local_upper_bound = 3.0237037037037036
+27,Process 17: local_lower_bound = 1.9770370370370371,           local_upper_bound = 2.0933333333333333
+27,Process 23: local_lower_bound = 2.6748148148148148,           local_upper_bound = 2.791111111111111
+27,Process 13: local_lower_bound = 1.511851851851852,           local_upper_bound = 1.6281481481481483
+27,Process 18: local_lower_bound = 2.0933333333333333,           local_upper_bound = 2.2096296296296294
+27,Process 22: local_lower_bound = 2.5585185185185186,           local_upper_bound = 2.6748148148148148
+27,Process 15: local_lower_bound = 1.7444444444444445,           local_upper_bound = 1.8607407407407408
+27,Process 10: local_lower_bound = 1.162962962962963,           local_upper_bound = 1.2792592592592593
+27,Process 20: local_lower_bound = 2.325925925925926,           local_upper_bound = 2.442222222222222
+27,Process 11: local_lower_bound = 1.2792592592592593,           local_upper_bound = 1.3955555555555557
+27,Process 26: local_lower_bound = 3.023703703703704,           local_upper_bound = 3.14
+27,Process 5: local_lower_bound = 0.5814814814814815,           local_upper_bound = 0.6977777777777778
+27,Process 9: local_lower_bound = 1.0466666666666666,           local_upper_bound = 1.162962962962963
+27,Process 12: local_lower_bound = 1.3955555555555557,           local_upper_bound = 1.511851851851852
+27,Process 8: local_lower_bound = 0.9303703703703704,           local_upper_bound = 1.0466666666666666
+27,Process 24: local_lower_bound = 2.7911111111111113,           local_upper_bound = 2.9074074074074074
+27,Process 14: local_lower_bound = 1.6281481481481481,           local_upper_bound = 1.7444444444444445
+27,Process 16: local_lower_bound = 1.8607407407407408,           local_upper_bound = 1.9770370370370371
+27,Process 21: local_lower_bound = 2.4422222222222225,           local_upper_bound = 2.5585185185185186
+27,Process 7: local_lower_bound = 0.8140740740740741,           local_upper_bound = 0.9303703703703704
+27,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926470285172623
+27,12.39,36.01,2.60
+28,rank0
+28,Process 8: local_lower_bound = 0.8971428571428571,           local_upper_bound = 1.0092857142857143
+28,Process 6: local_lower_bound = 0.6728571428571428,           local_upper_bound = 0.7849999999999999
+28,Process 14: local_lower_bound = 1.57,           local_upper_bound = 1.6821428571428572
+28,Process 22: local_lower_bound = 2.467142857142857,           local_upper_bound = 2.579285714285714
+28,Process 25: local_lower_bound = 2.8035714285714284,           local_upper_bound = 2.9157142857142855
+28,Process 4: local_lower_bound = 0.44857142857142857,           local_upper_bound = 0.5607142857142857
+28,Process 13: local_lower_bound = 1.4578571428571427,           local_upper_bound = 1.5699999999999998
+28,Process 19: local_lower_bound = 2.130714285714286,           local_upper_bound = 2.242857142857143
+28,Process 20: local_lower_bound = 2.242857142857143,           local_upper_bound = 2.355
+28,Process 7: local_lower_bound = 0.785,           local_upper_bound = 0.8971428571428571
+28,Process 11: local_lower_bound = 1.2335714285714285,           local_upper_bound = 1.3457142857142856
+28,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.11214285714285714
+28,Process 26: local_lower_bound = 2.9157142857142855,           local_upper_bound = 3.0278571428571426
+28,Process 23: local_lower_bound = 2.579285714285714,           local_upper_bound = 2.6914285714285713
+28,Process 1: local_lower_bound = 0.11214285714285714,           local_upper_bound = 0.22428571428571428
+28,Process 16: local_lower_bound = 1.7942857142857143,           local_upper_bound = 1.9064285714285714
+28,Process 10: local_lower_bound = 1.1214285714285714,           local_upper_bound = 1.2335714285714285
+28,Process 15: local_lower_bound = 1.6821428571428572,           local_upper_bound = 1.7942857142857143
+28,Process 27: local_lower_bound = 3.027857142857143,           local_upper_bound = 3.14
+28,Process 9: local_lower_bound = 1.0092857142857143,           local_upper_bound = 1.1214285714285714
+28,Process 3: local_lower_bound = 0.3364285714285714,           local_upper_bound = 0.44857142857142857
+28,Process 5: local_lower_bound = 0.5607142857142857,           local_upper_bound = 0.6728571428571428
+28,Process 12: local_lower_bound = 1.3457142857142856,           local_upper_bound = 1.4578571428571427
+28,Process 21: local_lower_bound = 2.355,           local_upper_bound = 2.467142857142857
+28,Process 24: local_lower_bound = 2.6914285714285713,           local_upper_bound = 2.8035714285714284
+28,Process 18: local_lower_bound = 2.0185714285714287,           local_upper_bound = 2.130714285714286
+28,Process 2: local_lower_bound = 0.22428571428571428,           local_upper_bound = 0.3364285714285714
+28,Process 17: local_lower_bound = 1.9064285714285714,           local_upper_bound = 2.0185714285714287
+28,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.001592644639367453
+28,11.44,44.85,2.95
+29,rank0
+29,Process 24: local_lower_bound = 2.5986206896551725,           local_upper_bound = 2.706896551724138
+29,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.10827586206896553
+29,Process 18: local_lower_bound = 1.9489655172413796,           local_upper_bound = 2.0572413793103452
+29,Process 12: local_lower_bound = 1.2993103448275862,           local_upper_bound = 1.4075862068965517
+29,Process 27: local_lower_bound = 2.9234482758620692,           local_upper_bound = 3.0317241379310347
+29,Process 17: local_lower_bound = 1.840689655172414,           local_upper_bound = 1.9489655172413793
+29,Process 4: local_lower_bound = 0.4331034482758621,           local_upper_bound = 0.5413793103448277
+29,Process 2: local_lower_bound = 0.21655172413793106,           local_upper_bound = 0.32482758620689656
+29,Process 7: local_lower_bound = 0.7579310344827587,           local_upper_bound = 0.8662068965517242
+29,Process 14: local_lower_bound = 1.5158620689655173,           local_upper_bound = 1.6241379310344828
+29,Process 5: local_lower_bound = 0.5413793103448277,           local_upper_bound = 0.6496551724137932
+29,Process 3: local_lower_bound = 0.32482758620689656,           local_upper_bound = 0.4331034482758621
+29,Process 23: local_lower_bound = 2.490344827586207,           local_upper_bound = 2.5986206896551725
+29,Process 6: local_lower_bound = 0.6496551724137931,           local_upper_bound = 0.7579310344827587
+29,Process 8: local_lower_bound = 0.8662068965517242,           local_upper_bound = 0.9744827586206898
+29,Process 11: local_lower_bound = 1.1910344827586208,           local_upper_bound = 1.2993103448275862
+29,Process 25: local_lower_bound = 2.7068965517241383,           local_upper_bound = 2.815172413793104
+29,Process 15: local_lower_bound = 1.624137931034483,           local_upper_bound = 1.7324137931034485
+29,Process 16: local_lower_bound = 1.7324137931034485,           local_upper_bound = 1.840689655172414
+29,Process 10: local_lower_bound = 1.0827586206896553,           local_upper_bound = 1.1910344827586208
+29,Process 19: local_lower_bound = 2.0572413793103452,           local_upper_bound = 2.1655172413793107
+29,Process 9: local_lower_bound = 0.9744827586206898,           local_upper_bound = 1.0827586206896553
+29,Process 20: local_lower_bound = 2.1655172413793107,           local_upper_bound = 2.273793103448276
+29,Process 28: local_lower_bound = 3.0317241379310347,           local_upper_bound = 3.14
+29,Process 22: local_lower_bound = 2.3820689655172416,           local_upper_bound = 2.490344827586207
+29,Process 13: local_lower_bound = 1.407586206896552,           local_upper_bound = 1.5158620689655173
+29,Process 1: local_lower_bound = 0.10827586206896553,           local_upper_bound = 0.21655172413793106
+29,Process 26: local_lower_bound = 2.815172413793104,           local_upper_bound = 2.9234482758620692
+29,Process 21: local_lower_bound = 2.273793103448276,           local_upper_bound = 2.3820689655172416
+29,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.00159264559480574
+29,11.60,47.07,2.96
+30,rank0
+30,Process 29: local_lower_bound = 3.0353333333333334,           local_upper_bound = 3.14
+30,Process 23: local_lower_bound = 2.4073333333333333,           local_upper_bound = 2.512
+30,Process 4: local_lower_bound = 0.4186666666666667,           local_upper_bound = 0.5233333333333333
+30,Process 22: local_lower_bound = 2.3026666666666666,           local_upper_bound = 2.4073333333333333
+30,Process 16: local_lower_bound = 1.6746666666666667,           local_upper_bound = 1.7793333333333334
+30,Process 8: local_lower_bound = 0.8373333333333334,           local_upper_bound = 0.9420000000000001
+30,Process 15: local_lower_bound = 1.57,           local_upper_bound = 1.6746666666666667
+30,Process 21: local_lower_bound = 2.198,           local_upper_bound = 2.3026666666666666
+30,Process 19: local_lower_bound = 1.9886666666666668,           local_upper_bound = 2.0933333333333333
+30,Process 1: local_lower_bound = 0.10466666666666667,           local_upper_bound = 0.20933333333333334
+30,Process 7: local_lower_bound = 0.7326666666666667,           local_upper_bound = 0.8373333333333334
+30,Process 26: local_lower_bound = 2.7213333333333334,           local_upper_bound = 2.826
+30,Process 3: local_lower_bound = 0.314,           local_upper_bound = 0.4186666666666667
+30,Process 5: local_lower_bound = 0.5233333333333333,           local_upper_bound = 0.628
+30,Process 18: local_lower_bound = 1.8840000000000001,           local_upper_bound = 1.9886666666666668
+30,Process 2: local_lower_bound = 0.20933333333333334,           local_upper_bound = 0.314
+30,Process 11: local_lower_bound = 1.1513333333333333,           local_upper_bound = 1.256
+30,Process 24: local_lower_bound = 2.512,           local_upper_bound = 2.6166666666666667
+30,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.10466666666666667
+30,Process 6: local_lower_bound = 0.628,           local_upper_bound = 0.7326666666666667
+30,Process 9: local_lower_bound = 0.9420000000000001,           local_upper_bound = 1.0466666666666666
+30,Process 12: local_lower_bound = 1.256,           local_upper_bound = 1.3606666666666667
+30,Process 14: local_lower_bound = 1.4653333333333334,           local_upper_bound = 1.57
+30,Process 27: local_lower_bound = 2.826,           local_upper_bound = 2.9306666666666668
+30,Process 17: local_lower_bound = 1.7793333333333334,           local_upper_bound = 1.8840000000000001
+30,Process 20: local_lower_bound = 2.0933333333333333,           local_upper_bound = 2.198
+30,Process 13: local_lower_bound = 1.3606666666666667,           local_upper_bound = 1.4653333333333334
+30,Process 25: local_lower_bound = 2.6166666666666667,           local_upper_bound = 2.7213333333333334
+30,Process 10: local_lower_bound = 1.0466666666666666,           local_upper_bound = 1.1513333333333333
+30,Process 28: local_lower_bound = 2.9306666666666668,           local_upper_bound = 3.0353333333333334
+30,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.001592646550238032
+30,12.00,49.32,2.89
+31,rank0
+31,Process 30: local_lower_bound = 3.0387096774193547,           local_upper_bound = 3.14
+31,Process 22: local_lower_bound = 2.2283870967741937,           local_upper_bound = 2.3296774193548386
+31,Process 12: local_lower_bound = 1.2154838709677418,           local_upper_bound = 1.316774193548387
+31,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.10129032258064516
+31,Process 9: local_lower_bound = 0.9116129032258065,           local_upper_bound = 1.0129032258064516
+31,Process 17: local_lower_bound = 1.7219354838709677,           local_upper_bound = 1.823225806451613
+31,Process 4: local_lower_bound = 0.40516129032258064,           local_upper_bound = 0.5064516129032258
+31,Process 21: local_lower_bound = 2.1270967741935483,           local_upper_bound = 2.228387096774193
+31,Process 5: local_lower_bound = 0.5064516129032258,           local_upper_bound = 0.607741935483871
+31,Process 23: local_lower_bound = 2.3296774193548386,           local_upper_bound = 2.4309677419354836
+31,Process 15: local_lower_bound = 1.5193548387096774,           local_upper_bound = 1.6206451612903225
+31,Process 24: local_lower_bound = 2.4309677419354836,           local_upper_bound = 2.5322580645161286
+31,Process 7: local_lower_bound = 0.7090322580645161,           local_upper_bound = 0.8103225806451613
+31,Process 8: local_lower_bound = 0.8103225806451613,           local_upper_bound = 0.9116129032258065
+31,Process 19: local_lower_bound = 1.924516129032258,           local_upper_bound = 2.0258064516129033
+31,Process 26: local_lower_bound = 2.633548387096774,           local_upper_bound = 2.734838709677419
+31,Process 1: local_lower_bound = 0.10129032258064516,           local_upper_bound = 0.20258064516129032
+31,Process 14: local_lower_bound = 1.4180645161290322,           local_upper_bound = 1.5193548387096774
+31,Process 29: local_lower_bound = 2.9374193548387098,           local_upper_bound = 3.0387096774193547
+31,Process 13: local_lower_bound = 1.316774193548387,           local_upper_bound = 1.4180645161290322
+31,Process 10: local_lower_bound = 1.0129032258064516,           local_upper_bound = 1.1141935483870968
+31,Process 11: local_lower_bound = 1.1141935483870968,           local_upper_bound = 1.215483870967742
+31,Process 28: local_lower_bound = 2.8361290322580643,           local_upper_bound = 2.9374193548387093
+31,Process 3: local_lower_bound = 0.30387096774193545,           local_upper_bound = 0.40516129032258064
+31,Process 27: local_lower_bound = 2.7348387096774194,           local_upper_bound = 2.8361290322580643
+31,Process 18: local_lower_bound = 1.823225806451613,           local_upper_bound = 1.924516129032258
+31,Process 25: local_lower_bound = 2.532258064516129,           local_upper_bound = 2.633548387096774
+31,Process 2: local_lower_bound = 0.20258064516129032,           local_upper_bound = 0.30387096774193545
+31,Process 6: local_lower_bound = 0.6077419354838709,           local_upper_bound = 0.7090322580645161
+31,Process 16: local_lower_bound = 1.6206451612903225,           local_upper_bound = 1.7219354838709677
+31,Process 20: local_lower_bound = 2.0258064516129033,           local_upper_bound = 2.1270967741935483
+31,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.0015926447981814548
+31,12.03,53.31,3.02
+32,rank0
+32,Process 2: local_lower_bound = 0.19625,           local_upper_bound = 0.294375
+32,Process 29: local_lower_bound = 2.845625,           local_upper_bound = 2.94375
+32,Process 5: local_lower_bound = 0.49062500000000003,           local_upper_bound = 0.58875
+32,Process 31: local_lower_bound = 3.041875,           local_upper_bound = 3.14
+32,Process 25: local_lower_bound = 2.453125,           local_upper_bound = 2.55125
+32,Process 27: local_lower_bound = 2.649375,           local_upper_bound = 2.7475
+32,Process 1: local_lower_bound = 0.098125,           local_upper_bound = 0.19625
+32,Process 19: local_lower_bound = 1.8643750000000001,           local_upper_bound = 1.9625000000000001
+32,Process 23: local_lower_bound = 2.256875,           local_upper_bound = 2.355
+32,Process 15: local_lower_bound = 1.471875,           local_upper_bound = 1.57
+32,Process 9: local_lower_bound = 0.883125,           local_upper_bound = 0.9812500000000001
+32,Process 17: local_lower_bound = 1.668125,           local_upper_bound = 1.76625
+32,Process 8: local_lower_bound = 0.785,           local_upper_bound = 0.883125
+32,Process 21: local_lower_bound = 2.060625,           local_upper_bound = 2.15875
+32,Process 22: local_lower_bound = 2.15875,           local_upper_bound = 2.256875
+32,Process 20: local_lower_bound = 1.9625000000000001,           local_upper_bound = 2.060625
+32,Process 4: local_lower_bound = 0.3925,           local_upper_bound = 0.49062500000000003
+32,Process 6: local_lower_bound = 0.58875,           local_upper_bound = 0.686875
+32,Process 16: local_lower_bound = 1.57,           local_upper_bound = 1.668125
+32,Process 18: local_lower_bound = 1.76625,           local_upper_bound = 1.8643750000000001
+32,Process 13: local_lower_bound = 1.275625,           local_upper_bound = 1.37375
+32,Process 12: local_lower_bound = 1.1775,           local_upper_bound = 1.275625
+32,Process 24: local_lower_bound = 2.355,           local_upper_bound = 2.453125
+32,Process 14: local_lower_bound = 1.37375,           local_upper_bound = 1.471875
+32,Process 3: local_lower_bound = 0.294375,           local_upper_bound = 0.3925
+32,Process 0: local_lower_bound = 0.0,           local_upper_bound = 0.098125
+32,Process 7: local_lower_bound = 0.686875,           local_upper_bound = 0.785
+32,Process 26: local_lower_bound = 2.55125,           local_upper_bound = 2.649375
+32,Process 10: local_lower_bound = 0.9812500000000001,           local_upper_bound = 1.079375
+32,Process 28: local_lower_bound = 2.7475,           local_upper_bound = 2.845625
+32,Process 30: local_lower_bound = 2.94375,           local_upper_bound = 3.041875
+32,Process 11: local_lower_bound = 1.079375,           local_upper_bound = 1.1775
+32,Approximate integral of cos(x) from 0.0             to 3.14 with 10000000 steps: 0.001592647824108081
+32,12.28,60.20,3.08

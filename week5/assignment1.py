@@ -1,10 +1,12 @@
-"""
-Module for numerical integration using trapezoidal rule.
-"""
-import cProfile
+# author = zhipeng he
+"""Module for numerical integration using trapezoidal rule."""
 import argparse
 import math
+import cProfile
+import functools
+import pstats
 
+@functools.lru_cache(maxsize=None)
 def trapezoid(func, a, b, *, n=256):
     """
     Calculates the definite integral of the function f(x)
@@ -53,4 +55,11 @@ def main():
 
 if __name__ == "__main__":
     #main()
-    cProfile.run('print(main()); print()')
+    #cProfile.run('print(main()); print()')
+    profiler = cProfile.Profile()
+    profiler.enable()
+    main()  # Run the main function
+    profiler.disable()
+    stats = pstats.Stats(profiler)
+    stats.sort_stats('tottime')  # Sort by total time
+    stats.print_stats()  

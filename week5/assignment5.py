@@ -17,8 +17,6 @@ def extract_data(file_path):
             minutes, seconds = map(float, elapsed_time.split(':'))
             total_seconds = minutes * 60 + seconds
             times.append(total_seconds)
-
-    # Return as a DataFrame
     df = pd.DataFrame({'Workers': range(len(times)), 'Time': times})
     print(df)
     return df
@@ -35,21 +33,9 @@ def plot_data(df):
     plt.savefig('workers_vs_time.png')
     plt.show()
 
-    # Plot 3: You can create another plot based on your requirements
-    # Example: Cumulative time
-    plt.figure(figsize=(10, 5))
-    plt.plot(df['Workers'], df['Time'].cumsum(), marker='o', color='red', label='Cumulative Time')
-    plt.title('Cumulative Time vs Workers')
-    plt.xlabel('Number of Workers')
-    plt.ylabel('Cumulative Time (seconds)')
-    plt.grid()
-    plt.legend()
-    plt.savefig('cumulative_time_vs_workers.png')
-    plt.show()
-
 if __name__ == '__main__':
     # Extract data from the results.csv file
-    filepath = '/homes/zhe/Desktop/programming/p5/week5/results.csv'
+    filepath = '/homes/zhe/Desktop/programming/p5/week2/results.csv'
     data_frame = extract_data(filepath)
     # Plot the extracted data
     plot_data(data_frame)

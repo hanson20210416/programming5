@@ -35,12 +35,46 @@ def distribute_bounds(lower_bound, upper_bound, num_processes, comm):
     local_upper_bound = local_lower_bound + chunk_size if rank < num_processes - 1 else upper_bound
     return local_lower_bound, local_upper_bound
 
-def main():
+# def main():  ############## reduce 
+#     """Main function to handle the distributed numerical integration."""
+#     comm = MPI.COMM_WORLD
+#     rank = comm.Get_rank()
+#     size = comm.Get_size()
+#     if rank == 0:
+#         parser = argparse.ArgumentParser(description='Numerical integral using the trapezoid rule')
+#         parser.add_argument("-a", help="The lower bound of the definite integral", type=float,
+#                             required=True)
+#         parser.add_argument("-b", help="The upper bound of the definite integral", type=float,
+#                             required=True)
+#         parser.add_argument("-n", help="The number of steps for the numerical approximation",
+#                             type=int, default=256)
+#         args = parser.parse_args()
+#         lower_bound = args.a
+#         upper_bound = args.b
+#         num_steps = args.n
+#     else:
+#         lower_bound = None
+#         upper_bound = None
+#         num_steps = None
+#     lower_bound = comm.bcast(lower_bound, root=0)
+#     upper_bound = comm.bcast(upper_bound, root=0)
+#     num_steps = comm.bcast(num_steps, root=0)
+#     local_lower_bound, local_upper_bound = distribute_bounds(lower_bound, upper_bound, size, comm)
+#     local_num_steps = num_steps // size
+#     local_integral = trapezoid_rule(cos_function, local_lower_bound, local_upper_bound,
+#                                     num_subdivisions=local_num_steps)
+#     total_integral = comm.reduce(local_integral, op=MPI.SUM, root=0)
+
+#     if rank == 0:
+#         total_integral = total_integral * ((upper_bound - lower_bound) / num_steps)
+#         print(f"Approximate integral of cos(x) from {lower_bound} to {upper_bound} with \
+#               {num_steps} steps: {total_integral}")
+def main():      ################gather###############
     """Main function to handle the distributed numerical integration."""
     comm = MPI.COMM_WORLD
     rank = comm.Get_rank()
     size = comm.Get_size()
-    if rank == 0:
+    if rank == 0:    # Only rank 0 parses arguments and broadcasts them
         parser = argparse.ArgumentParser(description='Numerical integral using the trapezoid rule')
         parser.add_argument("-a", help="The lower bound of the definite integral", type=float,
                             required=True)
@@ -63,13 +97,12 @@ def main():
     local_num_steps = num_steps // size
     local_integral = trapezoid_rule(cos_function, local_lower_bound, local_upper_bound,
                                     num_subdivisions=local_num_steps)
-    total_integral = comm.reduce(local_integral, op=MPI.SUM, root=0)
-
+    # Gather all local integrals on rank 0 and Compute the total integral on rank 0
+    all_integrals = comm.gather(local_integral, root=0)
     if rank == 0:
-        total_integral = total_integral * ((upper_bound - lower_bound) / num_steps)
-        print(f"Approximate integral of cos(x) from {lower_bound} to {upper_bound} with \
-              {num_steps} steps: {total_integral}")
+        total_integral = sum(all_integrals) * ((upper_bound - lower_bound) / num_steps)
+        print(f"Approximate integral of cos(x) from {lower_bound} to {upper_bound} with "
+              f"{num_steps} steps: {total_integral}")
 
 if __name__ == '__main__':
     main()
-

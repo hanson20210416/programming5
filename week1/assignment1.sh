@@ -1,15 +1,15 @@
 #!/bin/bash
-#SBATCH --job-name=numerical_integration       # Job name
-#SBATCH --output=/home/shared/results.csv      # Output file
-#SBATCH --nodes=1                              # Request 1 node
-#SBATCH --ntasks=1                             # Number of tasks (processes)
-#SBATCH --time=01:00:00                        # Time limit (hh:mm:ss)
-#SBATCH --mem=4G                               # Memory per node
-#SBATCH --partition=workstations               # Partition name (depends on your cluster setup)
-#SBATCH --mail-user=z.he@st.hanze.nl           # Email address for notifications
-
-# Load any necessary modules
-module load python/3.8
+#SBATCH --job-name="assignment1.py"             
+#SBATCH --comment="assignment1"
+#SBATCH --account=zhe            
+#SBATCH --partition=assemblix         
+#SBATCH --output=results.out              
+#SBATCH --error=assignment1.err               
+#SBATCH --time=0-00:10:00               
+#SBATCH --nodes=1                      
+#SBATCH --ntasks=8                    
+#SBATCH --cpus-per-task=1              
+#SBATCH --mem-per-cpu=400M
 
 # Set the bounds of the integral
 a=0
