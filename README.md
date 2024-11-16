@@ -29,7 +29,8 @@ This repository contains my programming assignments for various computational ta
 
 ---
 
-## Week 3
+## Week 3 
+### Week 3 went wrong, So I uploaded the files outside here.
 ### Files:
 - **assignment3.py**: Database operations using SQLAlchemy.
   - Connects to a database.
