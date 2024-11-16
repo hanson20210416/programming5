@@ -48,7 +48,11 @@ This repository contains my programming assignments for various computational ta
   - Performs specific analyses on the DataFrames to answer predefined questions.
 
 - **assignment4.sh**: SLURM script to run `assignment4.py`. Handles large-scale XML files (5 total, with 150,000+ articles).
-- **Note** : 
+- **Note** : Apply slurm to run the assignment3.py at week4 , the XML files are 5. It inserted 150000+ articles into my database. It causes the assignment4.py does not work anymore. (because of the computation resource)
+  If I rerun my assignment3.sh, the 5 files will be covered by 1 XML file in my database, Then assigment4.py will work again.
+- **assignment3.py at week4**
+   The same implementation as at week3, but something changes at the main() just to make the assignment4.sh 
+ to run.
 
 ---
 
