@@ -1,0 +1,3 @@
+/var/lib/slurm/slurmd/job05472/slurm_script: line 14: home/zhe/Desktop/programming/dsls1/bin/activate: No such file or directory
+/homes/zhe/Desktop/programming/p5/week3/assignment3.py:63: RemovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  connection.execute('DROP TABLE IF EXISTS keywords CASCADE;')
